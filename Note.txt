@@ -103,6 +103,14 @@ HTML Tables:
 	- Set up header theo cột ngang/dọc
 	- Header for multiple column/row: "colspan" / "rowspan"
 	- Name of table: <table> <caption></caption> </table>
+HTML Block & Inline: 
+	- <span>: style inline text
+	- <div> element: 
+		+ no attribute, except: style, class, id
+HTML Classes: 
+	- <head><style>.city{...}</head></style>
+	  <h1 class="city">London</h2>
+		
 -------------------------------------------
 - Bài tập: 
 	+ style="text-decoration:none;" --> loại bỏ dấu gạch ở link
@@ -123,6 +131,9 @@ Maybe use for task:
 	- <table>: 
 		<table style="width:100%">
 		<tr style="height:200px">
+
+	- <span>: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_inline_span
+
 
 
 
