@@ -1,0 +1,133 @@
+- HTML intro: 
+	+ structure of Web page
+	+ consist a series of elements
+	+ HTML element: <tagname> Content goes here... </tagname>
+EXAMPLE _ TAGs: 
+- HTML Headings: 
+	+ tag: <h1> ---> <h6>
+	+ Title giảm dần đồ quan trọng
+- HTML Paragraphs:
+	+ tag: <p>
+- HTML Links: 
+	+ tag: <a>
+	+ href: attribute
+	+ Attribute provide additional information about HTML element
+- HTML Images: 
+	+ tag: <img>
+
+
+-----------------------------------
+-----------------------------------
+
+HTML _ ELEMENT: 
+ - Empty HTML Elements:
+	+ Empty element is an element without content
+	vd: <br> tag --> line break-
+
+	+ href: hyperlink
+	+ src:image, width, height, alt
+	+ style: "color","background-color", "font-family", "font-size:120%", "text-align:center"
+		ty
+		<tagname style="property:value;">
+		
+
+	+ lang: language
+	+ title: khi di chuột vào đoạn nào đó, nó sẽ hiện lên title của đoạn
+ - Using Quote: ""
+-----------------------------------------
+HTML Headings: 
+	- <h1>Heading 1</h1>
+	- <h1> ---> <h6>
+	- Change the sz: attri "style: font-size"
+		<h1 style="font-size:60px;">Heading 1</h1>
+HTML Paragraph:
+	- <p>: paragraph
+	- <hr>: Horizon 
+	- <br>: line break
+	- <pre>: fix format của nội dung
+HTML Formatting: tag, có thể dùng đính kèm kết hợp các tag
+	- <b>: bold
+	- <strong>: bold, important
+	- <i>: italic (nghiêng)
+	- <em>: emphasize, italic
+	- <small>
+	- <mark>: highlight
+	- <del>: chữ có dấu gạch, strikeout
+	- <ins>: underline
+	- <sub>: chữ bé phía dưới, vd: H20 (2 bé)
+	  ><  <sup>: mũ bên trên
+HTML Quotations:
+	- <blockquote>, cite: trích dẫn cả đoạn lùi vào
+	- <q>: trích dẫn trong câu: "..."
+	- <abbr>: dùng với "title", abbreviation/acronym
+	- <address>: thông tin tác giả in nghiêng ở cuối = <i>
+	- <cite>: the title of work (picture,..)
+	- <bro>, dir = "rtf": viết chữ ngược
+HTML Comment
+	- Tag: <!--  -->
+HTML Color:
+HTML CSS:
+	- Inline CSS: 
+		+ Attribute: style 
+		+ Dùng cho từng phần cụ thể trong trang
+	- Internal CSS: 
+		+ <style> tag
+		+ Dùng cho cả trang, đặt ở phần <head>
+	- External CSS
+		+ Viết 1 file .css riêng
+		+ Gắn link file .css đó vào <head> ở mỗi trang 
+	- CSS: 
+		+ border (độ dày khung), padding (space inside), margin (space outside)
+		+ đơn vị: px (pixes)
+HTML Links:
+	- Basic: <a href="url">link text</a>
+	- Attribute: target --> chuyển qua tab mới/cũ
+	- Sử dụng <img> trong <a> để gắn link vào ảnh
+	- Link to Email address: "mailto:"
+	- Button as link: attribute "onclick"
+HTML Images: 
+	- Basic: <img src="pic_trulli.jpg" alt="Italian Trulli">
+		+ src: link tới ảnh
+		+ alt: ký tự thay thế hiện lên, trong trường hợp ảnh lỗi
+	- <img>: empty tag, contain attribute only, no closing
+	- Khai báo width/height, atrribute: style
+		style="width:128px;height:128px;"
+	- "float:right/left" of style
+	- Image Map: 
+		+ Sử dụng khi click vào đồ vật j đó để dẫn tới 1 link nào đó
+		+ Dựa vào đo khoảng cách tới mép trái / trên
+	- background-image: url('img_girl.jpg'); ---> từng đoạn, mỗi đoạn, cả trang
+HTML Tables:
+	- borders:border, border-collapse,  border-color
+	- width, height 
+	- Set up header theo cột ngang/dọc
+	- Header for multiple column/row: "colspan" / "rowspan"
+	- Name of table: <table> <caption></caption> </table>
+-------------------------------------------
+- Bài tập: 
+	+ style="text-decoration:none;" --> loại bỏ dấu gạch ở link
+
+-------------------------------------------
+- Question: 
+	+ Sử dụng <> tag ntn?
+-------------------------------------------
+Maybe use for task:
+	- <h1> 
+	- <p>
+	- <em>
+	- <q> : ""
+	- <b> : bold
+	- style: "color","background-color": https://www.w3schools.com/html/html_colors.asp
+		"background-color":"PaleTurquoise", LightGray
+		"color": "white"
+	- <table>: 
+		<table style="width:100%">
+		<tr style="height:200px">
+
+
+
+
+
+
+
+
