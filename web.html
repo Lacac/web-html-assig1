@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
 #myHeader {
   background-color: lightgrey;
   padding: 30px;
   font-family:Brush Script MT
 }
+
+li {
+    display: block;
+    text-align: left;
+    padding: 15px;
+}
+
 table, th, td
 {
   border:1px solid black;
@@ -20,39 +29,92 @@ th
   background-color: PaleTurquoise;
   color: White
 }
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+
+}
+
+.column2 {
+  float: left;
+  width: 80%;
+  padding: 10px;
+  border-left: 1px solid grey
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 </head>
 <body>
-<h1 id="myHeader"> <img src="Capture.PNG" width="65" height="30" alt="Stickman" align="right">Mr.Camel</h1>
-<h2>About Me</h2>
-<p>I don't like some handsome horse, but I am a real desert king. I can service days without water.</p>
 
-<h2>My Career</h2>
-<p>I work as a web developer for a company that makes websites for camel businesses.</p>
+<h1 id="myHeader"> <img src="Capture.PNG" width="75" height="30" alt="Icon" align="right">Mr.Camel</h1>
 
-<hr width="100%">
-<h2>How can I help you?</h2>
+<div class="row">
+  <div class="column1" >
+    <img src="camel.PNG" alt="camel" width="100%" height="200" ></td>
+    <ul style="list-style-type:none; padding: 0;" >
+        <li style = "background-color: PaleTurquoise;" >Home</li>
+        <li>Career</li>
+        <li>Contact</li>
+        <li>About</li>
+      </ul>
+    <p>"Do something important in life. I convert green grass to code" </p> 
+    <p>-Mr.Camel</p>
+  </div>
+  <div class="column2">
+    
+    <h2>About Me</h2>
+    <p>I don't like some handsome horse, but I am a real desert king. I can service days without water.</p>
 
-<table style="width:100%">
-  <tr>
-    <th>SKILL 1</th>
-    <th>SKILL 2</th>
-    <th>SKILL 3</th>
-  </tr>
-    <tr>
-    <td style="text-align: center;"><img src="Capture_1.PNG" alt="pen" width="70" height="50" ></td>
-    <td style="text-align: center;"><img src="Capture_2.PNG" alt="store" width="70" height="50"></td>
-    <td style="text-align: center;"><img src="Capture_3.PNG" alt="pen" width="70" height="50"></td>
-  </tr>
-  <tr>
-    <td>Cleaning kaktus in your backyard</td>
-    <td>Storing some fat for you</td>
-    <td>Taking you through the desert</td>
-  </tr>
-</table>
+    <h2>My Career</h2>
+    <p>I work as a web developer for a company that makes websites for camel businesses.</p>
 
-<div style="width:100px; Height:50px;” ></div>
+    <hr width="100%">
+    <h2>How can I help you?</h2>
 
+    <table style="width:100%">
+        <tr>
+            <th>SKILL 1</th>
+            <th>SKILL 2</th>
+            <th>SKILL 3</th>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><img src="Capture_1.PNG" alt="pen" width="70" height="50" ></td>
+            <td style="text-align: center;"><img src="Capture_2.PNG" alt="store" width="70" height="50"></td>
+            <td style="text-align: center;"><img src="Capture_3.PNG" alt="pen" width="70" height="50"></td>
+        </tr>
+        <tr>
+            <td>Cleaning kaktus in your backyard</td>
+            <td>Storing some fat for you</td>
+            <td>Taking you through the desert</td>
+        </tr>
+    </table>
+    <br>
+    <form>
+        <label for="Email">Email: </label> <input type="text">
+        <br> <br>
+        <label for="Mobile">Mobile: </label> <input type="text">
+        <br><br>
+        <textarea name="message" rows="7" cols="25">Enter your message</textarea>
+        <br>
+        <input type="submit">
+
+    </form>
+
+  </div>
+</div>
 
 </body>
 </html>
